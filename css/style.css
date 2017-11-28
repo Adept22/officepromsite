@@ -1,0 +1,685 @@
+﻿html, body, div, p, a, tr, td, th, h1, h2, h3, h4, h5, h6
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Circe',sans-serif;
+}
+
+.clearfix:after
+{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.fbi
+{
+	height: 630px;
+	background-image: url(https://static.tildacdn.com/tild6431-3036-4661-a161-326138366135/7c3a1c4….jpg);
+    background-attachment: scroll;
+	opacity: 1;
+    transition: opacity 400ms;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    background-attachment: fixed;
+	z-index: 1;
+}
+
+.fbi_shadow
+{
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.40), rgba(0,0,0,0.40));
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.40), rgba(0,0,0,0.40));
+    background-image: -o-linear-gradient(top, rgba(0,0,0,0.40), rgba(0,0,0,0.40));
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.40), rgba(0,0,0,0.40));
+    background-image: linear-gradient(top, rgba(0,0,0,0.40), rgba(0,0,0,0.40));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#99000000', endColorstr='#99000000');
+	height: 630px;
+	width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+	color: #ffffff;
+	z-index: 2;
+}
+
+.fbi_shadow .ala-content
+{
+	padding: 42px 0;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.fbi_shadow .ala-content .title_box .title
+{
+	padding: 24px 0;
+	letter-spacing: 1px;
+	font-size: 36px;
+    line-height: 1.17;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+.fbi_shadow .ala-content .title_box .title span
+{
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+.fbi_shadow .ala-content .title_box .description a
+{
+	color: #ff8562;
+	text-decoration: none;
+	font-size: 22px;
+    line-height: 1.55;
+}
+
+.fbi_shadow .ala-content .title_box .description
+{
+	padding: 15px 0 30px 0;
+	font-size: 14px;
+    line-height: 1.55;
+	font-family: Arial;
+}
+
+.fbi_shadow .ala-content .title_box .buttons
+{
+	margin-top: 45px;
+}
+
+.fbi_shadow .ala-content .title_box .buttons .like_button
+{
+	font-size: 16px;
+	text-decoration: none;
+	color: #ffffff;
+	background: transparent;
+	padding: 17px 60px;
+	border: 3px solid #eb3434;
+	border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.fbi_shadow .ala-content .title_box .buttons .like_button:first-child
+{
+	background: #eb3434;
+}
+
+.fbi_shadow .ala-content .title_box .buttons .like_button:hover
+{
+	background: #f25c5c;
+}
+
+.fl
+{
+	float: left;
+}
+
+.fr
+{
+	float: right;
+}
+
+.ala-header
+{
+	height: 80px;
+	padding: 0 40px;
+	position: absolute;
+	z-index: 3;
+}
+
+.ala-header > div
+{
+	display: table-cell;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.ala-header > div:first-child
+{
+	text-align: left;
+}
+
+.ala-header > div
+{
+	width: 350px;
+}
+
+.ala-header > div:nth-child(2)
+{
+	width: auto;
+}
+
+.ala-header nav a
+{
+	font-size: 16px;
+	padding: 0 15px;
+}
+
+.ala-header nav a:hover
+{
+	color: #f25c5c;
+}
+
+.ala-header nav a:first-child
+{
+	padding-left: 0;
+}
+
+.ala-header nav a:last-child
+{
+	padding-right: 0;
+}
+
+.header_buts a:hover
+{
+	background: #f25c5c;
+	color: #ffffff;
+}
+
+.header_buts a.like_button
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.header_buts a:first-child
+{
+	margin-right: 10px;
+}
+
+.ala-header a
+{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.ala-content
+{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+a.like_button
+{
+	font-size: 16px;
+	display: inline-block;
+	background: white;
+	padding: 10px 15px;
+	color: #000000;
+	border-radius: 21px;
+}
+
+a.like_button:hover
+{
+	background: #f25c5c;
+}
+
+.like_table
+{
+	display: table;
+	width: 100%;
+}
+
+.like_table > *
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.main_form
+{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 75px;
+    padding-bottom: 60px;
+}
+
+.main_form .inputs
+{
+	display: table;
+	width: 100%;
+}
+
+.main_form .inputs > div
+{
+	display: table-cell;
+	width: 33%;
+	padding-right: 20px;
+}
+
+.main_form .inputs > div input[type="text"] {
+    margin: 0;
+    font-family: 'Circe',sans-serif;
+    font-size: 100%;
+    height: 60px;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 100%;
+    border: 0 none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-appearance: none;
+	color: #000000;
+    border: 1px solid #000000;
+}
+
+.main_form .inputs input[type="submit"] {
+	display: block;
+    line-height: 60px;
+    padding: 0 35px;
+    font-size: 15px;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: none;
+    background: #ffffff;
+	border: 3px solid #eb2121;
+	color: #eb2121;
+	-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.main_form .inputs input[type="submit"]:hover
+{
+    background: #eb2121;
+	color: #ffffff;
+}
+
+.main_form .private_policy
+{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 15px;
+    line-height: 1.55;
+	font-weight: 300;
+    color: #000;
+}
+
+.main_form .private_policy a
+{
+	color: #ff8562;
+    text-decoration: none;
+}
+
+.long_descr
+{
+	padding-top: 15px;
+    padding-bottom: 60px;
+	text-align: center;
+	margin-left: 20px;
+    margin-right: 20px;
+	font-size: 28px;
+    line-height: 1.35;
+	opacity: 0.70;
+	font-weight: 300;
+    color: #000;
+}
+
+.slider
+{
+	padding-top: 75px;
+    padding-bottom: 60px;
+	height: 620px;
+}
+
+.rooms_tables .tables_header
+{
+	padding-top: 30px;
+	padding-bottom: 60px;
+	text-align: center;
+    line-height: 1.23;
+}
+
+.rooms_tables .tables_header h3
+{
+	font-size: 36px;
+}
+
+.rooms_tables .tables_header h4
+{
+	font-size: 28px;
+}
+
+.rooms_tables table
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.rooms_tables table caption
+{
+	width: 100%;
+	text-align: left;
+	padding: 20px;
+	font-size: 18px;
+    line-height: 1.55;
+	font-weight: bold;
+}
+
+.rooms_tables table th
+{
+	border: 0 solid #ccc;
+	padding: 20px;
+	font-size: 18px;
+    border-width: 1px 0px 1px 0px;
+    border-color: #000000;
+}
+
+.rooms_tables table td
+{
+	text-align: center;
+	border: 0 solid #ccc;
+	padding: 20px;
+	font-size: 18px;
+    border-width: 1px 0px 1px 0px;
+	color: #4d4c4c;
+}
+
+.rooms_tables .like_button
+{
+	background: #eb4141;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 15px 30px;
+}
+
+.rooms_tables table tr:nth-child(odd) td
+{
+	background: #eeeeee;
+}
+
+.rooms_tables table.retail
+{
+	margin-top: 90px;
+    margin-bottom: 120px;
+}
+
+.contacts
+{
+	padding-top: 75px;
+	padding-bottom: 150px;
+}
+
+.contacts .top
+{
+	padding-bottom: 75px;
+	text-align: center;
+	position: relative;
+}
+
+.contacts .top .banner
+{
+	padding: 15px 44px;
+    background-color: #000;
+    display: inline-block;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    z-index: 1;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+.contacts .top:before
+{
+	content: '';
+    position: absolute;
+    top: 33px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #000;
+}
+
+.contacts .top:after
+{
+	content: '';
+    position: absolute;
+    margin-top: 22px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #000;
+}
+
+.contacts .top .connect_text
+{
+	padding: 40px 0 30px 0;
+	font-size: 36px;
+    line-height: 1.35;
+	font-weight: 300;
+}
+
+.contacts .top .connect_text a
+{
+	color: #ff8562;
+    text-decoration: none;
+}
+
+.contacts .map
+{
+	width: 660px;
+	height: 400px;
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.contacts .text_n_map
+{
+	display: table;
+	width: 100%;
+}
+
+.contacts .text_n_map div
+{
+	display: table-cell;
+}
+
+.contacts .contacts_text
+{
+    padding: 0 20px;
+    vertical-align: middle;
+}
+
+.contacts .contacts_text .contacts_title
+{
+	margin-bottom: 30px;
+	font-size: 28px;
+    line-height: 1.17;
+	font-weight: 600;
+}
+
+.contacts .contacts_text a
+{
+	font-size: 20px;
+    line-height: 1.55;
+	color: #ff8562;
+    text-decoration: none;
+	display: block;
+}
+
+.backtocat
+{
+	margin-bottom: 75px;
+	width: 100%;
+	margin-left: 20px;
+    margin-right: 20px;
+	text-align: center;
+	display: table;
+	position: relative;
+	overflow: hidden;
+	background-color: #000;
+	height: 70vh;
+}
+
+.backtocat a
+{
+	display: table-cell;
+    width: 100%;
+    height: 100%;
+	text-decoration: none;
+	color: #fff;
+	vertical-align: middle;
+}
+
+.backtocat a:hover .backtocat_animation, .backtocat a:focus .backtocat_animation
+{
+	-moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -o-transform: scale(1.04);
+    transform: scale(1.04);
+}
+
+.backtocat a:hover .backtocat_filter, .backtocat a:focus .backtocat_filter
+{
+	opacity: .8;
+}
+
+.backtocat a:hover .backtocat_text, .backtocat a:focus .backtocat_text
+{
+	-moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.backtocat .backtocat_animation
+{
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+	-webkit-transition: all ease-in-out .25s;
+    -moz-transition: all ease-in-out .25s;
+    -o-transition: all ease-in-out .25s;
+    transition: all ease-in-out .25s;
+	background-image: url(https://static.tildacdn.com/tild6463-6362-4139-a536-353066353739/7c3a1c4….jpg);
+}
+
+.backtocat .backtocat_filter
+{
+	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60));
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60));
+    background-image: -o-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60));
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.60), rgba(0,0,0,0.60));
+	-webkit-transition: all ease-in-out .25s;
+    -moz-transition: all ease-in-out .25s;
+    -o-transition: all ease-in-out .25s;
+    transition: all ease-in-out .25s;
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.backtocat .backtocat_text
+{
+	-webkit-transition: all ease-in-out .25s;
+    -moz-transition: all ease-in-out .25s;
+    -o-transition: all ease-in-out .25s;
+    transition: all ease-in-out .25s;
+	padding: 20px 40px;
+    position: relative;
+	margin: 30px auto;
+}
+
+.backtocat .backtocat_text .title
+{
+	font-size: 52px;
+    line-height: 1.23;
+	font-weight: 600;
+}
+
+.backtocat .backtocat_text .subtitle
+{
+    margin-top: 30px;
+	font-size: 22px;
+    line-height: 1.55;
+	font-weight: 300;
+}
+
+.ala-footer
+{
+    background-color: #111111;
+	padding: 0 40px;
+	color: #ffffff;
+	height: 80px;
+}
+
+.ala-footer div:first-child
+{
+	width: 250px;
+}
+
+.ala-footer div:nth-child(2)
+{
+	/*width: 100%;*/
+	padding: 0 16px;
+	text-align: center;
+}
+
+.ala-footer div:last-child
+{
+	width: 250px;
+	text-align: right;
+}
+
+.ala-footer div:last-child a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.ala-footer .footer_descr
+{
+	font-size: 13px;
+	font-weight: 100;
+	line-height: 1.35;
+}
+
+.ala-footer nav
+{
+	padding: 0 16px;
+}
+
+.ala-footer nav a
+{
+	display: inline-block;
+    margin: 0 15px;
+	font-size: 13px;
+    line-height: 1.35;
+	font-weight: 600;
+	color: #ffffff;
+	text-decoration: none;
+}
