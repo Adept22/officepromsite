@@ -19,7 +19,7 @@
 .fbi
 {
 	height: 630px;
-	background-image: url(https://static.tildacdn.com/tild6431-3036-4661-a161-326138366135/7c3a1c4….jpg);
+	background-image: url(imgs/top_back.jpg);
     background-attachment: scroll;
 	opacity: 1;
     transition: opacity 400ms;
@@ -583,7 +583,7 @@ a.like_button:hover
     -moz-transition: all ease-in-out .25s;
     -o-transition: all ease-in-out .25s;
     transition: all ease-in-out .25s;
-	background-image: url(https://static.tildacdn.com/tild6463-6362-4139-a536-353066353739/7c3a1c4….jpg);
+	background-image: url(catalog_back.jpg);
 }
 
 .backtocat .backtocat_filter
